@@ -177,7 +177,7 @@ const Currencyconvertor = () => {
         </div>
       </div>
       <h1 className="conversion-result">
-      {/* Conversionresult component does the conversion and gives the desired output */}
+      {/* Conversionresult component shows the desired output */}
         <Conversionresult
           selectedCountries={selectedCountries}
           amount={amount}
