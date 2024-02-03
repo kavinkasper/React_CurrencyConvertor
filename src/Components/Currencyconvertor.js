@@ -52,8 +52,7 @@ const Currencyconvertor = () => {
       console.log(err);
     }
   }, [selectedCountries, amount]);
-
-  // useEffect will render whenever selectedCountries or amount changes 
+  {/*useEffect will render whenever selectedCountries or amount changes  */}
 
   const handleAmountInput = (event) => {
     try {
@@ -149,8 +148,10 @@ const Currencyconvertor = () => {
 
   return (
     <div>
+    {/* Header Component */}
       <Header />
       <div className="conversion-description">
+      {/* Currencydescription component gives small detail about conversion */}
         <Currencydescription
           countryList={countryList}
           selectedCountries={selectedCountries}
@@ -158,12 +159,14 @@ const Currencyconvertor = () => {
       </div>
       <div className="currency-converter-container">
         <div className="amount-input-section">
+        {/* AmountInput component to get the amount value from the user which is to be converted */}
           <AmountInput 
           amount={amount} 
           handleAmountInput={handleAmountInput} 
           />
         </div>
         <div className="conversion-section">
+        {/* Countryselection component to get the two country details from the user */}
           <Countryselection
             selectedCountries={selectedCountries}
             countryList={countryList}
@@ -174,6 +177,7 @@ const Currencyconvertor = () => {
         </div>
       </div>
       <h1 className="conversion-result">
+      {/* Conversionresult component does the conversion and gives the desired output */}
         <Conversionresult
           selectedCountries={selectedCountries}
           amount={amount}
@@ -181,6 +185,7 @@ const Currencyconvertor = () => {
           calculatedAmount={calculatedAmount}
         />
       </h1>
+    {/* Footer component */}
       <Footer />
     </div>
   );
