@@ -12,7 +12,9 @@ function App() {
   );
 }
 
-    {/* I have attached the Outputlook as a image (Outputlook.png) */}
+    // we can also use "<></>" instead of "<React.Fragment></React.Fragment>" beacuse it is the shorthand syntax of <React.Fragment>
+
+    // I have attached the Outputlook as a image (Outputlook.png)
 
 
 export default App;
