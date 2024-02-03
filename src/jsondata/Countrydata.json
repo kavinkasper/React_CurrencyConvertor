@@ -1,0 +1,118 @@
+{
+    "country":[
+        {
+            "id":1,
+            "name":"SGD",
+            "rup":"Dollar",
+            "image_url":"/asserts/SGD.png"
+        },
+        {
+            "id":2,
+            "name":"USD",
+            "rup":"US Dollar",
+            "image_url":"/asserts/USD.png"
+        },
+        {
+            "id":3,
+            "name":"MYR",
+            "rup":"Malasiyan Rinngit",
+            "image_url":"/asserts/MYR.png"
+        },
+        {
+            "id":4,
+            "name":"EUR",
+            "rup":"Euro",
+            "image_url":"/asserts/EUR.png"
+        },
+        {
+            "id":5,
+            "name":"AUD",
+            "rup":"Australian Dollar",
+            "image_url":"/asserts/AUD.png"
+        },
+        {
+            "id":6,
+            "name":"JPY",
+            "rup":"Japanese Yen",
+            "image_url":"/asserts/JPY.png"
+        },
+        {
+            "id":7,
+            "name":"CNH",
+            "rup":"Chinese Yuan",
+            "image_url":"/asserts/CNH.png"
+        },
+        {
+            "id":8,
+            "name":"HKD",
+            "rup":"Hong Kong Dollar",
+            "image_url":"/asserts/HKD.png"
+        },
+        {
+            "id":9,
+            "name":"CAD",
+            "rup":"Canadian Dollar",
+            "image_url":"/asserts/CAD.png"
+        },
+        {
+            "id":10,
+            "name":"INR",
+            "rup":"Indian Rupee",
+            "image_url":"/asserts/INR.png"
+        },
+        {
+            "id":11,
+            "name":"DKK",
+            "rup":"Danish Krone",
+            "image_url":"/asserts/DKK.png"
+        },
+        {
+            "id":12,
+            "name":"GBP",
+            "rup":"British Pound",
+            "image_url":"/asserts/GBP.png"
+        },
+        {
+            "id":13,
+            "name":"RUB",
+            "rup":"Russian Ruble",
+            "image_url":"/asserts/RUB.png"
+        },
+        {
+            "id":14,
+            "name":"NZD",
+            "rup":"New Zeland Dollar",
+            "image_url":"/asserts/NZD.png"
+        },
+        {
+            "id":15,
+            "name":"MXN",
+            "rup":"Mexican Peso",
+            "image_url":"/asserts/MXN.png"
+        },
+        {
+            "id":16,
+            "name":"IDR",
+            "rup":"Indonesian Rupiah",
+            "image_url":"/asserts/IDR.png"
+        },
+        {
+            "id":17,
+            "name":"TWD",
+            "rup":"Taiwan New Dollar",
+            "image_url":"/asserts/TWD.png"
+        },
+        {
+            "id":18,
+            "name":"THB",
+            "rup":"Thai Bhat",
+            "image_url":"/asserts/THB.png"
+        },
+        {
+            "id":19,
+            "name":"VND",
+            "rup":"Vietnamese Dong",
+            "image_url":"/asserts/VND.png"
+        }
+    ]
+}

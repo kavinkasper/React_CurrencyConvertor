@@ -1,0 +1,19 @@
+.header-container{
+    display: flex;
+    border: 2px solid white;
+    height: 100px;
+}
+
+.header-logo{
+width: 10%;
+height: auto;
+margin-left: 15px;
+}
+
+.header-title{
+    margin-left: 28%;
+    font-style:oblique;
+    font-size: 40px;
+    color: #034484;
+
+}
