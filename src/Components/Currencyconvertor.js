@@ -52,7 +52,7 @@ const Currencyconvertor = () => {
       console.log(err);
     }
   }, [selectedCountries, amount]);
-  {/*useEffect will render whenever selectedCountries or amount changes  */}
+  // useEffect will render whenever selectedCountries or amount changes
 
   const handleAmountInput = (event) => {
     try {
@@ -147,7 +147,7 @@ const Currencyconvertor = () => {
   };
 
   return (
-    <div>
+    <React.Fragment>
     {/* Header Component */}
       <Header />
       <div className="conversion-description">
@@ -187,7 +187,7 @@ const Currencyconvertor = () => {
       </h1>
     {/* Footer component */}
       <Footer />
-    </div>
+    </React.Fragment>
   );
 };
 
